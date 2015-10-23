@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="eos.inf.ug.edu.plPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>projekt.Aktor</class>
+    <class>projekt.Klient_1</class>
+    <class>projekt.Aktor_1</class>
+    <class>projekt.Wystep_1</class>
+    <class>projekt.Bilet_1</class>
+    <class>projekt.Zakup_1</class>
+    <class>projekt.Premiera_1</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://eos.inf.ug.edu.pl"/>
+      <property name="javax.persistence.jdbc.user" value="mzelek"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="224637"/>
+    </properties>
+  </persistence-unit>
+</persistence>
